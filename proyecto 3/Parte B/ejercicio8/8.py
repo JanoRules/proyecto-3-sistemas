@@ -54,7 +54,7 @@ estimaciones = np.array(estimaciones)
 # 1) APLICAR FILTRO COMPLEMENTARIO
 # ===========================================
 
-alpha = 0.95   # <-- puedes cambiar esto para elegir el mejor resultado
+alpha = 0.95   
 
 filtro_complementario = alpha * estimaciones + (1 - alpha) * z
 

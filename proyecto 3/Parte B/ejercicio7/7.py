@@ -77,7 +77,7 @@ estimaciones = np.array(estimaciones)
 # 5) Gráficos finales
 # ===========================================
 
-plt.figure(figsize=(10,5))
+plt.figure(figsize=(7,4))
 
 # Mediciones ruidosas
 plt.plot(t, z, color="blue", alpha=0.4, label="Mediciones", linewidth=1)
